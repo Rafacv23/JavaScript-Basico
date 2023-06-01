@@ -14,4 +14,4 @@ const maxValor = Number.MAX_VALUE;
 const suma = maxValor + 1;
 const esIgual = suma === maxValor;
 
-console.log(esIgual);
+console.log(esIgual); 
