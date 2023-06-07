@@ -1,5 +1,5 @@
 {
-  "name": "10-modulos",
+  "name": "pokeapi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,9 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.4.0",
-    "chalk": "^5.2.0"
-  }
+  "license": "ISC"
 }

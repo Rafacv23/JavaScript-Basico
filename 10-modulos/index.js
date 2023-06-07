@@ -1,4 +1,4 @@
-import {suma, multiplica }from "./controller.js";
+import {suma, multiplica } from "./controller.js";
 import chalk from "chalk";
 
 const sum = suma(1, 2);
