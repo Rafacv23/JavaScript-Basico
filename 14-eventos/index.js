@@ -11,4 +11,12 @@ $(document).ready(() => {
     $("#jquery").click(() => {
         console.log("Hola, estoy utilizando JQuery");
     })
+
+    $("#new-element").click(() => {
+        $("ul").prepend("<li>Hola mundo</li>");
+    })
+    $("li").hover(function () {
+        $("li").css("color", "blue");
+        }
+    );
 })
