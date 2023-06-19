@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: midnightblue;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.seccion {
+    background-color: darkturquoise;
+    margin: 1rem;
+    width: 50%;
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parrafo {
+    background-color: aliceblue;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    width: 95%;
+    font-size: 2rem;
+}
+
+.parrafo.arrastrado {
+    opacity: 0.5;
+}
+
+.borrar {
+    background-image: url(/16-drag-and-drop/media/papelera.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
